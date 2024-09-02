@@ -1,8 +1,7 @@
-package com.appMusic.appMusic.service;
+package com.appMusic.appMusic.domain.record;
 
 import com.fasterxml.jackson.annotation.JsonAlias;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import org.springframework.core.annotation.AliasFor;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public record SingerR(@JsonAlias("desc") String name,
